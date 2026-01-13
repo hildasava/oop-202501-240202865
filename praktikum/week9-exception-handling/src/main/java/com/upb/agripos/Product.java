@@ -13,10 +13,9 @@ public class Product {
         this.stock = stock;
     }
 
+    public String getCode() { return code; }
     public String getName() { return name; }
+    public double getPrice() { return price; }
     public int getStock() { return stock; }
-    
-    public void reduceStock(int qty) { 
-        this.stock -= qty; 
-    }
-} // <--- Pastikan kurung tutup ini ada di baris paling terakhir!
+    public void reduceStock(int qty) { this.stock -= qty; }
+}
