@@ -39,8 +39,13 @@ Dalam konteks Agri-POS, **Pembayaran** dapat dimodelkan sebagai abstract class d
    - `Cash` setidaknya mengimplementasikan `Receiptable`.
 
 5. **Main Class**
+<<<<<<< HEAD
     - Buat `MainAbstraction.java` untuk mendemonstrasikan pemakaian `Pembayaran` (polimorfik).
     - Tampilkan hasil proses dan struk. Di akhir, panggil `CreditBy.print("[NIM]", "[Nama]")`.
+=======
+   - Buat `MainAbstraction.java` untuk mendemonstrasikan pemakaian `Pembayaran` (polimorfik).
+   - Tampilkan hasil proses dan struk. Di akhir, panggil `CreditBy.print("<NIM>", "<Nama>")`.
+>>>>>>> a574de5 (Add documentation for abstraction, abstract classes, and interfaces with practical examples)
 
 6. **Commit dan Push**
    - Commit dengan pesan: `week5-abstraction-interface`.
@@ -49,7 +54,11 @@ Dalam konteks Agri-POS, **Pembayaran** dapat dimodelkan sebagai abstract class d
 
 ## Struktur Repositori
 ```
+<<<<<<< HEAD
 oop-20251-[nim]/
+=======
+oop-20251-<nim>/
+>>>>>>> a574de5 (Add documentation for abstraction, abstract classes, and interfaces with practical examples)
  └─ praktikum/week5-abstraction-interface/
      ├─ src/main/java/com/upb/agripos/model/
      │   ├─ pembayaran/Pembayaran.java
@@ -201,7 +210,11 @@ public class MainAbstraction {
         System.out.println(((Receiptable) cash).cetakStruk());
         System.out.println(((Receiptable) ew).cetakStruk());
 
+<<<<<<< HEAD
     CreditBy.print("[NIM]", "[Nama Mahasiswa]");
+=======
+        CreditBy.print("<NIM>", "<Nama Mahasiswa>");
+>>>>>>> a574de5 (Add documentation for abstraction, abstract classes, and interfaces with practical examples)
     }
 }
 ```
@@ -227,7 +240,11 @@ public class MainAbstraction {
 - [ ] Interface diimplementasikan **dengan benar** pada kelas yang relevan.
 - [ ] **Multiple inheritance via interface** berjalan (kelas mengimplementasikan ≥2 interface).
 - [ ] Program menampilkan **struk** dan status proses pembayaran.
+<<<<<<< HEAD
 - [ ] Output menyertakan **credit by: [NIM] - [Nama]** melalui `CreditBy`.
+=======
+- [ ] Output menyertakan **credit by: <NIM> - <Nama>** melalui `CreditBy`.
+>>>>>>> a574de5 (Add documentation for abstraction, abstract classes, and interfaces with practical examples)
 - [ ] Screenshot & laporan telah dilampirkan.
 
 ---
