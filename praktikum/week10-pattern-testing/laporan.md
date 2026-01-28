@@ -81,7 +81,9 @@ System.out.println(p1.getNama());
 
 ## Hasil Eksekusi
 (Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
+![Screenshot hasil](screenshots/Output_Main_Week10_240202865.png)
+ [Screenshot hasil](screenshots/Output2_Week10.png)
+
 )
 ---
 
